@@ -1,4 +1,4 @@
-# 🧬 Juego de la Vida de Conway
+#  Juego de la Vida de Conway
 
 > Tarea 1 — Computación Paralela  
 > LEAD University · 2026  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Descripción
+##  Descripción
 
 Implementación completa del **Juego de la Vida de Conway** en Python, incluyendo:
 
@@ -18,7 +18,7 @@ Implementación completa del **Juego de la Vida de Conway** en Python, incluyend
 
 ---
 
-## 📁 Estructura del repositorio
+##  Estructura del repositorio
 
 ```
 Juego_de_vida/
@@ -29,7 +29,7 @@ Juego_de_vida/
 
 ---
 
-## ⚙️ Requisitos
+##  Requisitos
 
 - Python 3.9 o superior
 - Jupyter Notebook o JupyterLab
@@ -42,7 +42,7 @@ pip install numpy matplotlib
 
 ---
 
-## 🚀 Cómo ejecutar la simulación
+##  Cómo ejecutar la simulación
 
 ### Opción 1 — Jupyter Notebook
 
@@ -69,7 +69,7 @@ No requiere instalación ni servidor.
 
 ---
 
-## 🔬 Contenido del Notebook
+##  Contenido del Notebook
 
 ### 1. Clase `GameOfLife`
 
@@ -155,7 +155,7 @@ Traza el número de celdas vivas por generación.
 
 ---
 
-## 📊 Resultados de rendimiento
+##  Resultados de rendimiento
 
 Resultados obtenidos en la máquina de referencia:
 
@@ -173,8 +173,7 @@ Resultados obtenidos en la máquina de referencia:
 La implementación vectorizada con NumPy escala de forma aproximadamente lineal gracias al uso de `numpy.roll` que evita bucles explícitos en Python.
 
 ---
-
-## 🖥️ Simulador HTML
+##  Simulador HTML
 
 El archivo `juego_de_vida.html` es un simulador autónomo que no requiere Python.
 
@@ -193,7 +192,7 @@ El archivo `juego_de_vida.html` es un simulador autónomo que no requiere Python
 
 ---
 
-## 🔍 Análisis y Discusión
+##  Análisis y Discusión
 
 ### Complejidad computacional
 
@@ -217,7 +216,7 @@ Cada celda ocupa 1 byte (`uint8`). El uso total es proporcional al tamaño:
 
 ---
 
-## 📚 Referencias
+##  Referencias
 
 - Gardner, M. (1970). *Mathematical Games: The fantastic combinations of John Conway's new solitaire game "Life"*. Scientific American, 223(4), 120–123.
 - Conway, J. H. (1970). *Game of Life*. Unpublished.
@@ -226,7 +225,7 @@ Cada celda ocupa 1 byte (`uint8`). El uso total es proporcional al tamaño:
 
 ---
 
-## 👤 Autor
+##  Autor
 
 **David Mora V.**  
 Ingeniería en Ciencia de Datos — LEAD University  
